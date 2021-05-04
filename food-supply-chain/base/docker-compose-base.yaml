@@ -6,7 +6,7 @@ services:
 
   orderer.fsc.com:
     container_name: orderer.fsc.com
-    image: hyperledger/fabric-orderer
+    image: hyperledger/fabric-orderer:1.4.9
     environment:
       - ORDERER_GENERAL_LOGLEVEL=debug
       - ORDERER_GENERAL_LISTENADDRESS=0.0.0.0
