@@ -1,5 +1,4 @@
 #
-# Blockchain By Example - Food supply chain
 # Utility script for run peer command
 #
 
