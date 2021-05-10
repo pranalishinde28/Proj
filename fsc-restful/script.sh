@@ -1,5 +1,4 @@
 #!/bin/bash
-# Blockchain By Example for restful api demo
 
 export COMPOSE_PROJECT_NAME="fscrestful"
 # Generate the needed certificates, the genesis block and start the network.
