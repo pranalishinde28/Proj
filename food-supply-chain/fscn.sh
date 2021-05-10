@@ -78,7 +78,7 @@ function networkDown () {
 
 
 
-# We will use the cryptogen tool to generate the cryptographic material (x509 certs)
+# cryptogen tool to generate the cryptographic material (x509 certs)
 # for our various network entities.  The certificates are based on a standard PKI
 # implementation where validation is achieved by reaching a common trust anchor.
 function generateCerts (){
@@ -154,7 +154,7 @@ while getopts "h?m:c:t:d:f:s:" opt; do
   esac
 done
 
-# Determine whether starting, stopping, restarting or generating for announce
+# Determining whether starting, stopping, restarting or generating for announce
 if [ "$MODE" == "up" ]; then
   EXPMODE="Starting"
   elif [ "$MODE" == "down" ]; then
